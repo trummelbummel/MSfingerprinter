@@ -2,8 +2,7 @@ import bitarray
 import numpy as np
 import pandas as pd
 from sqlalchemy import create_engine
-from cubes.tutorial.sql import create_table_from_csv
-from cubes import Workspace
+
 import subprocess
 from collections import defaultdict, OrderedDict
 import itertools

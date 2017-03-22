@@ -12,7 +12,6 @@ import MSfingerprinter.comparetrees as comparetrees
 import matplotlib.pyplot as plt
 import multiprocessing
 import os
-import pyms
 import math
 import traceback
 import sys

@@ -1,11 +1,19 @@
 # MSfingerprinter
 Finds periodicities in mass spectral data based on the intensity domain and construction of reactiontrees describing mass differences in mass spectra
 
+Implements:
+Efficient mining of partial periodic patterns in time series database Han et al. 1999 (maximum subpattern hitset algorithm)
+Multiple and partial periodicity mining in time series databases Berberedis et al. 2002
+
 Software used:
 
 peak_detection (MIT license 1.0.4) https://github.com/demotu/BMC
 pysax https://github.com/dolaameng/pysax
 d3js.org (BSD 3)
+
+Dependencies using Anaconda run:
+pip install joblib
+pip install treelib
 
 
 Explanation of main functions:

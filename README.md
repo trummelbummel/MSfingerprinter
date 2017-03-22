@@ -2,6 +2,7 @@
 Finds periodicities in mass spectral data based on the intensity domain and construction of reactiontrees describing mass differences in mass spectra
 
 Implements:
+
 Efficient mining of partial periodic patterns in time series database Han et al. 1999 (maximum subpattern hitset algorithm)
 
 Multiple and partial periodicity mining in time series databases Berberedis et al. 2002
@@ -13,7 +14,9 @@ pysax https://github.com/dolaameng/pysax
 d3js.org (BSD 3)
 
 Dependencies using Anaconda run:
+
 pip install joblib
+
 pip install treelib
 
 

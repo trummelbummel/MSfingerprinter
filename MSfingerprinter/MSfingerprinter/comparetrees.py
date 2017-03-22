@@ -1,5 +1,4 @@
 import json
-import jsontree
 from treelib import Node, Tree
 import os
 import fnmatch
@@ -114,7 +113,7 @@ def searchMasspatterngroundtruth(reactiontreeinstance, rootsubtree, endsubtree, 
             visualdict = toVisualDict(subtree)
             resultpath = os.getcwd + '/results/resultssubtrees/'
             dictfilename = 'DICTIOARNYTREEPATH' + 'from' + str(start) + 'to' + str(target) + str(filename)+ '.json'
-            savepath = os.path.join(resultpath, dictfilename
+            savepath = os.path.join(resultpath, dictfilename)
             json.dump(visualdict, open(savepath,'w'))
             return rootnode, stoichiometformula
 

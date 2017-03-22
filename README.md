@@ -3,6 +3,7 @@ Finds periodicities in mass spectral data based on the intensity domain and cons
 
 Implements:
 Efficient mining of partial periodic patterns in time series database Han et al. 1999 (maximum subpattern hitset algorithm)
+
 Multiple and partial periodicity mining in time series databases Berberedis et al. 2002
 
 Software used:

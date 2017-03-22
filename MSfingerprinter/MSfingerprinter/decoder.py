@@ -7,7 +7,6 @@ import pandas as pd
 import re
 from sklearn import preprocessing
 from scipy import signal
-import icoshift
 from scipy import stats
 
 def readinputclustering(filename, preprocessingmode):

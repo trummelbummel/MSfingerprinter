@@ -10,12 +10,17 @@ Multiple and partial periodicity mining in time series databases Berberedis et a
 Software used:
 
 peak_detection (MIT license 1.0.4) https://github.com/demotu/BMC
+
 pysax https://github.com/dolaameng/pysax
+
 d3js.org (BSD 3)
+
+treelib (Apache License) http://treelib.readthedocs.io/en/latest/
 
 Dependencies using Anaconda run:
 
 pip install joblib
+
 
 pip install treelib
 
